@@ -1,0 +1,420 @@
+/*================*/
+/*==== Assets ====*/
+/*================*/
+
+
+
+
+/*=========================*/
+/*==== Universal Styles ====*/
+/*=========================*/
+
+html {
+  font-family: sans-serif;
+}
+
+
+/*========== SPECIFIC STYLES ==========*/
+
+
+/*=====================*/
+/* HEADER SECTION */
+/*=====================*/
+#header { /*parent of logo section + nav section = flex */
+  height: 80px; /* made slightly larger than spec */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 24px;
+
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#logo span {
+  font-size: 24px; /* made smaller than spec */
+}
+
+.logo-style {
+  font-weight: bold;
+
+}
+
+.logo-secondary-style {
+  color: gray;
+
+}
+
+
+/* DESKTOP NAVIGATION */
+#nav ul {/*parent of li = flex*/
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+#nav ul li {
+  margin-right: 16px;
+}
+
+#nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.secondaryNav {
+  font-weight: bold;
+}
+
+
+
+
+/*=====================*/
+/* BANNER SECTION */
+/*=====================*/
+#banner { /* parent of .banner-image + banner-content */
+  background-color: lightGray;
+  height: auto;
+  display: flex;
+}
+
+/* left side of banner one */
+.banner-image {
+  margin: 32px 24px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image img {
+  width: 100%; /* to prevent cropped */
+
+}
+
+/* Right side of banner one */
+.banner-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 24px;
+  margin-left: 24px;
+  text-align: left;
+}
+
+
+.banner-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom:  24px;
+}
+
+.banner-content p {
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 22px;
+}
+
+
+.banner-button a {
+  background-color: gray;
+  color: white;
+  padding: 20px 150px; /* made slightly larger than spec */
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+/*=====================*/
+/* BANNER TWO SECTION */
+/*=====================*/
+#bannerTwoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 24px;
+
+}
+
+
+/* Left side column of banner two "practice" */
+#practice {
+  width: 60%;
+  padding-right: 34px;
+}
+
+#practice img {
+  width: 100%;
+  margin-right: 24px;
+  margin-top: 50px;
+}
+
+#practice h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 35px;
+}
+
+#practice p {
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+#practice span {
+  font-size: 14px;
+}
+
+
+
+/* Right side column of banner two "school products" */
+#schoolProducts {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  border-left: 2px solid lightGray;
+  padding-left: 24px;
+}
+
+#schoolInfoWrapper {
+  display: inline-flex;
+  flex-direction: row;
+  /*margin: 16px;*/
+  margin-left: 0px;
+}
+
+#schoolInfoWrapper:hover {
+  background-color: lightGray;
+
+}
+
+.school-image {
+  width: 45%; /* made slightly larger than spec */
+  margin: 16px;
+}
+
+.school-image img {
+  width: 100%;
+}
+
+.school-description {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.school-description h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.school-description p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+a.link {
+  color: lightBlue;
+  text-decoration: none;
+}
+
+
+
+/*==============================*/
+/*==== BANNER THREE SECTION ====*/
+/*=============================*/
+#bannerThreeWrapper {
+  margin-top: 32px;
+  background-color: lightGray;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  height: auto;
+  position: relative;
+}
+
+#bannerThreeWrapper .learningTitle {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px; /* slightly different than spec */
+  left: 520px;
+}
+
+#learning {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.course {
+  background-color: white;
+  display: inline-block;
+  width: 260px;
+  margin-left: 32px;
+  height: 275px;
+  margin-bottom: 32px;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.courseText {
+  margin: 16px;
+}
+
+.course .title {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.course p {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.course span {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+/*=============================*/
+/* BANNER FOUR SECTION */
+/*=============================*/
+#bannerFourWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 32px 24px;
+  position: relative;
+  padding-top: 80px
+
+}
+
+#bannerFourWrapper h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 540px;
+}
+
+/* left side of the fourth banner */
+#urban {
+  width: 60%;
+
+}
+
+#urban video {
+  width: 100%;
+
+}
+
+#urbanText {
+
+}
+
+#urbanText h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#urbanText p {
+
+}
+
+/* right side of the fourth banner */
+#design {
+  width: 40%;
+  margin-left: 24px;
+  margin-bottm: 32px;
+
+}
+
+.designTypes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 16px;
+
+}
+
+.designTypes:hover {
+  background-color: lightGray;
+}
+
+.designTypes img {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+}
+
+
+.designTypesText {
+  width: 60%;
+  margin: 16px;
+}
+
+.designTypesText h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 22px;
+}
+
+.designTypesText p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+
+}
+
+/*=============================*/
+/* FOOTER */
+/*=============================*/
+
+#footer {
+  border-top: 2px solid lightGray;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer span {
+  font-size: 14px;
+}
+
+#footer div span {
+  padding-left: 24px;
+}
