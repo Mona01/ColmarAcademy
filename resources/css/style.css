@@ -13,21 +13,20 @@ html {
   font-family: "Monserrat", sans-serif;
 }
 
-
-/*========== SPECIFIC STYLES ==========*/
-
+/*======================================*/
+/*========== SPECIFIC STYLES ===========*/
+/*======================================*/
 
 /*=====================*/
 /* HEADER SECTION */
 /*=====================*/
-#header { /*parent of logo section + nav section = flex */
-  height: 80px; /* made slightly larger than spec */
+header {
   display: flex;
+  height: 80px;
   align-items: center;
   justify-content: space-between;
   margin-right: 24px;
   margin-left: 24px;
-
 }
 
 #logo {
@@ -46,32 +45,30 @@ html {
 
 .logo-style {
   font-weight: bold;
-
 }
 
 .logo-secondary-style {
   color: rgba(159, 157, 157, 0.8); /*Gray*/
-
 }
 
 
 /* DESKTOP NAVIGATION */
-#nav ul {/*parent of li = flex*/
+nav ul {
   display: flex;
   width: 400px;
   justify-content: space-between;
 }
 
-#nav ul li {
+nav ul li {
   margin-right: 16px;
 }
 
-#nav a {
+nav a {
   color: #000000;
   text-decoration: none;
 }
 
-#nav a:hover {
+nav a:hover {
   color: rgba(159, 157, 157, 1.0); /*Gray*/
   text-decoration: none;
 }
@@ -89,7 +86,7 @@ html {
 /****MOBILE NAVIGATION****/
 @media only screen and (max-width: 480px) {
 
- #nav {
+ nav {
     display: none;
   }
 
@@ -135,7 +132,6 @@ html {
 
 .banner-image img {
   width: 100%; /* to prevent cropped */
-
 }
 
 /* Right side of banner one */
@@ -162,14 +158,12 @@ html {
   line-height: 22px;
 }
 
-
 .banner-button a {
   background-color: #000000;
   color: white;
   padding: 20px 150px; /* made slightly larger than spec */
   text-align: center;
   text-decoration: none;
-
 }
 
 .banner-button a:hover {
@@ -350,14 +344,12 @@ a.readMore {
     border: none;
     width: 90%;
     padding-left: 0px;
-
   }
 
   #schoolInfoWrapper {
     flex-direction: column;
     margin: 0px;
     margin-left: 0px;
-
   }
 
   .school-image-mobile {
@@ -366,47 +358,36 @@ a.readMore {
     justify-content: center;
     align-items: center;
     margin-left: 0px;
-
   }
 
   .school-image-mobile {
     width: 100%;
     margin-right: 20px;
     margin-left: 0px;
-
   }
 
   .school-image-mobile img {
     width: 100%;
-
   }
 
   .school-description.mobile {
     width: 100%;
     margin-bottom: 24px;
     margin-left: 0px;
-
   }
 
   .school-description.mobile h3 {
     font-size: 22px;
     margin-top: 16px;
-
   }
 
   .school-description.mobile p {
     font-size: 16px;
     font-weight: lighter;
     line-height: 22px;
-
-
   }
 
-
-
 }
-
-
 
 /*==============================*/
 /*==== BANNER THREE SECTION ====*/
@@ -428,7 +409,6 @@ a.readMore {
   position: absolute;
   top: 40px;
   left: 520px;
-
 }
 
 #learning {
@@ -489,7 +469,6 @@ a.readMore {
 
   #bannerThreeWrapper .learningTitle {
     display: none;
-
   }
 
   #bannerThreeWrapper {
@@ -501,7 +480,6 @@ a.readMore {
     align-items: center;
     padding-left: 16px;
     background-color: #ffffff;
-
   }
 
   #mobile-learning {
@@ -532,20 +510,13 @@ a.readMore {
     padding-bottom: 30px;
     margin-bottom: 10px;
     text-align: left;
-
   }
 
   #mobile-learning div:hover {
     background-color: rgba(159, 157, 157, 0.8); /*light gray*/
-
-
   }
 
-
-
 }
-
-
 
 /*=============================*/
 /* BANNER FOUR SECTION */
@@ -557,7 +528,6 @@ a.readMore {
   margin: 32px 24px;
   position: relative;
   padding-top: 80px
-
 }
 
 #bannerFourWrapper h2 {
@@ -571,16 +541,10 @@ a.readMore {
 /* left side of the fourth banner */
 #urban {
   width: 60%;
-
 }
 
 #urban video {
   width: 100%;
-
-}
-
-#urbanText {
-
 }
 
 #urbanText h3 {
@@ -590,16 +554,11 @@ a.readMore {
   margin-bottom: 24px;
 }
 
-#urbanText p {
-
-}
-
 /* right side of the fourth banner */
 #design {
   width: 40%;
   margin-left: 24px;
   margin-bottm: 32px;
-
 }
 
 .designTypes {
@@ -609,7 +568,6 @@ a.readMore {
   align-items: center;
   height: 200px;
   margin: 16px;
-
 }
 
 .designTypes:hover {
@@ -639,7 +597,6 @@ a.readMore {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 8px;
-
 }
 
 
@@ -667,7 +624,6 @@ a.readMore {
     left: 80px;
     margin-top: 32px;
     margin-bottom: 16px;
-
   }
 
   #urban  {
@@ -676,15 +632,13 @@ a.readMore {
     margin-top: 32px;
   }
 
-
-
 }
 
 /*=============================*/
 /* FOOTER */
 /*=============================*/
 
-#footer {
+footer {
   border-top: 2px solid rgba(159, 157, 157, 0.3); /* light gray */
   padding-top: 16px;
   padding-left: 24px;
@@ -694,21 +648,20 @@ a.readMore {
   justify-content: space-between;
 }
 
-#footer span {
+footer span {
   font-size: 14px;
-
 }
 
-#footer div span {
+footer div span {
   padding-left: 24px;
 }
 
-#footer div a {
+footer div a {
   color: #000000;
   text-decoration: none;
 }
 
-#footer div a:hover {
+footer div a:hover {
   color: rgba(159, 157, 157, 1.0); /*Gray*/
 }
 
@@ -716,20 +669,18 @@ a.readMore {
 
 @media only screen and (max-width: 480px) {
 
-  #footer div {
+  footer div {
       display: none;
   }
 
-  #footer {
+  footer {
     border: none;
     margin-top: 24px;
     font-weight: lighter;
     justify-content: center;
-
-
   }
 
-  #footer span {
+  footer span {
     font-size: 14px;
   }
 
