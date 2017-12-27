@@ -1,7 +1,6 @@
 /*================*/
 /*==== Assets ====*/
 /*================*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
 
 
@@ -22,11 +21,11 @@ html {
 /*=====================*/
 header {
   display: flex;
-  height: 80px;
+  height: 5rem;
   align-items: center;
   justify-content: space-between;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 #logo {
@@ -35,12 +34,12 @@ header {
 }
 
 #logo img {
-  width: 40px;
-  margin-right: 10px;
+  width: 2.5rem;
+  margin-right: 0.625rem;
 }
 
 #logo span {
-  font-size: 24px; /* made smaller than spec */
+  font-size: 1.5rem; /* made smaller than spec */
 }
 
 .logo-style {
@@ -55,12 +54,12 @@ header {
 /* DESKTOP NAVIGATION */
 nav ul {
   display: flex;
-  width: 400px;
+  width: 25rem;
   justify-content: space-between;
 }
 
 nav ul li {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 nav a {
@@ -82,7 +81,6 @@ nav a:hover {
 }
 
 
-
 /****MOBILE NAVIGATION****/
 @media only screen and (max-width: 480px) {
 
@@ -98,7 +96,7 @@ nav a:hover {
     display: block;
     background-color: white;
     width: 100%;
-    height: 64px;
+    height: 4rem;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -106,7 +104,7 @@ nav a:hover {
 
 
   #navMobile img {
-    width: 40px;
+    width: 2.5rem;
   }
 
 
@@ -124,7 +122,7 @@ nav a:hover {
 
 /* left side of banner one */
 .banner-image {
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -140,28 +138,28 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
   text-align: left;
 }
 
 
 .banner-content h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bold;
-  margin-bottom:  24px;
+  margin-bottom:  1.5rem;
 }
 
 .banner-content p {
-  font-size: 16px;
-  margin-bottom: 50px;
-  line-height: 22px;
+  font-size: 1rem;
+  margin-bottom: 3.125rem;
+  line-height: 1.375rem;
 }
 
 .banner-button a {
   background-color: #000000;
   color: white;
-  padding: 20px 150px; /* made slightly larger than spec */
+  padding: 1.25rem 9.375rem; /* made slightly larger than spec */
   text-align: center;
   text-decoration: none;
 }
@@ -179,7 +177,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 3.75rem;
   }
 
   .banner-image {
@@ -197,22 +195,22 @@ nav a:hover {
   }
 
   .banner-content h2 {
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 0px;
-    line-height: 40px;
-    padding-left: 16px;
-    padding-right: 16px;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
   }
 
   .banner-content p {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .banner-button a {
-    margin-left: 16px;
-    padding: 15px 140px;
+    margin-left: 1rem;
+    padding: 1rem 8.45rem;
   }
 
 }
@@ -224,7 +222,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 24px;
+  margin-left: 1.5rem;
 
 }
 
@@ -232,29 +230,29 @@ nav a:hover {
 /* Left side column of banner two "practice" */
 #practice {
   width: 60%;
-  padding-right: 34px;
+  padding-right: 2.125rem;
 }
 
 #practice img {
   width: 100%;
-  margin-right: 24px;
-  margin-top: 50px;
+  margin-right: 1.5rem;
+  margin-top: 3.125rem;
 }
 
 #practice h3 {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
-  margin-top: 32px;
-  margin-bottom: 35px;
+  margin-top: 2rem;
+  margin-bottom: 2.25rem;
 }
 
 #practice p {
-  line-height: 22px;
-  margin-bottom: 40px;
+  line-height: 1.375rem;
+  margin-bottom: 2.5rem;
 }
 
 #practice span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: italic;
 }
 
@@ -265,9 +263,9 @@ nav a:hover {
   width: 40%;
   display: flex;
   flex-direction: column;
-  margin-top: 34px;
-  border-left: 2px solid rgba(159, 157, 157, 0.3); /* light gray */
-  padding-left: 24px;
+  margin-top: 2.125rem;
+  border-left: 0.125rem solid rgba(159, 157, 157, 0.3); /* light gray */
+  padding-left: 1.5rem;
 }
 
 #schoolInfoWrapper {
@@ -284,7 +282,7 @@ nav a:hover {
 
 #schoolImage {
   width: 45%; /* made slightly larger than spec */
-  margin: 16px;
+  margin: 1rem;
 }
 
 #schoolImage img {
@@ -299,15 +297,15 @@ nav a:hover {
 }
 
 .school-description h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .school-description p {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 8px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 1.125rem;
 }
 
 a.readMore {
@@ -362,7 +360,7 @@ a.readMore {
 
   .school-image-mobile {
     width: 100%;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     margin-left: 0px;
   }
 
@@ -372,19 +370,19 @@ a.readMore {
 
   .school-description.mobile {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     margin-left: 0px;
   }
 
   .school-description.mobile h3 {
-    font-size: 22px;
-    margin-top: 16px;
+    font-size: 1.375rem;
+    margin-top: 1rem;
   }
 
   .school-description.mobile p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: lighter;
-    line-height: 22px;
+    line-height: 1.375rem;
   }
 
 }
@@ -393,22 +391,22 @@ a.readMore {
 /*==== BANNER THREE SECTION ====*/
 /*=============================*/
 #bannerThreeWrapper {
-  margin-top: 32px;
+  margin-top: 2rem;
   background-color: rgba(159, 157, 157, 0.3); /* lightGray */
   height: auto;
   display: flex;
   justify-content: center;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   height: auto;
   position: relative;
 }
 
 #bannerThreeWrapper .learningTitle {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   position: absolute;
-  top: 40px;
-  left: 520px;
+  top: 2.5rem;
+  left: 32.5rem;
 }
 
 #learning {
@@ -422,10 +420,10 @@ a.readMore {
 .course {
   background-color: #ffffff;
   display: inline-block;
-  width: 260px;
-  margin-left: 32px;
-  height: 275px;
-  margin-bottom: 32px;
+  width: 16.25rem;
+  margin-left: 2rem;
+  height: 17.1875rem;
+  margin-bottom: 2rem;
 }
 
 .course img {
@@ -434,26 +432,26 @@ a.readMore {
 }
 
 .courseText {
-  margin: 16px;
+  margin: 1rem;
 }
 
 .course .title {
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 18px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .course p {
-  font-size: 14px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .course span {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
 }
 
 #mobile-learning {
@@ -478,7 +476,7 @@ a.readMore {
     align-items: left;
     justify-content: center;
     align-items: center;
-    padding-left: 16px;
+    padding-left: 1rem;
     background-color: #ffffff;
   }
 
@@ -486,29 +484,29 @@ a.readMore {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     width: 100%;
   }
 
   #mobile-learning h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
   }
 
   #mobile-learning div {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: #000000; /*light gray*/
     color: #ffffff;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
+    padding-left: 1.875rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    margin-bottom: 0.625rem;
     text-align: left;
   }
 
@@ -525,17 +523,17 @@ a.readMore {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
   position: relative;
-  padding-top: 80px
+  padding-top: 5rem;
 }
 
 #bannerFourWrapper h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   position: absolute;
-  top: 20px;
-  left: 540px;
+  top: 1.25rem;
+  left: 33.75rem;
 }
 
 /* left side of the fourth banner */
@@ -548,17 +546,17 @@ a.readMore {
 }
 
 #urbanText h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: bold;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* right side of the fourth banner */
 #design {
   width: 40%;
-  margin-left: 24px;
-  margin-bottm: 32px;
+  margin-left: 1.5rem;
+  margin-bottm: 2rem;
 }
 
 .designTypes {
@@ -567,7 +565,7 @@ a.readMore {
   justify-content: center;
   align-items: center;
   height: 200px;
-  margin: 16px;
+  margin: 1rem;
 }
 
 .designTypes:hover {
@@ -575,7 +573,7 @@ a.readMore {
 }
 
 .designTypes img {
-  margin: 16px;
+  margin: 1rem;
   width: 35%;
   height: auto;
 }
@@ -583,20 +581,20 @@ a.readMore {
 
 .designTypesText {
   width: 60%;
-  margin: 16px;
+  margin: 1rem;
 }
 
 .designTypesText h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
-  margin-bottom: 12px;
-  line-height: 22px;
+  margin-bottom: 0.75rem;
+  line-height: 1.375rem;
 }
 
 .designTypesText p {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 8px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -621,15 +619,15 @@ a.readMore {
 
   #bannerFourWrapper h2 {
     position: relative;
-    left: 80px;
-    margin-top: 32px;
-    margin-bottom: 16px;
+    left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   #urban  {
     width: 100%;
     padding: 0px;
-    margin-top: 32px;
+    margin-top: 2rem;
   }
 
 }
@@ -639,21 +637,21 @@ a.readMore {
 /*=============================*/
 
 footer {
-  border-top: 2px solid rgba(159, 157, 157, 0.3); /* light gray */
-  padding-top: 16px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 50px;
+  border-top: 0.125rem solid rgba(159, 157, 157, 0.3); /* light gray */
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3.125rem;
   display: flex;
   justify-content: space-between;
 }
 
 footer span {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 footer div span {
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 footer div a {
@@ -675,13 +673,13 @@ footer div a:hover {
 
   footer {
     border: none;
-    margin-top: 24px;
+    margin-top: 1.5rem;
     font-weight: lighter;
     justify-content: center;
   }
 
   footer span {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
 }
