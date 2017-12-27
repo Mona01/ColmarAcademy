@@ -1,8 +1,8 @@
 /*================*/
 /*==== Assets ====*/
 /*================*/
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
 
 
 /*=========================*/
@@ -10,7 +10,7 @@
 /*=========================*/
 
 html {
-  font-family: sans-serif;
+  font-family: "Monserrat", sans-serif;
 }
 
 
@@ -50,7 +50,7 @@ html {
 }
 
 .logo-secondary-style {
-  color: gray;
+  color: rgba(159, 157, 157, 0.8); /*Gray*/
 
 }
 
@@ -71,6 +71,11 @@ html {
   text-decoration: none;
 }
 
+#nav a:hover {
+  color: rgba(159, 157, 157, 1.0); /*Gray*/
+  text-decoration: none;
+}
+
 .secondaryNav {
   font-weight: bold;
 }
@@ -78,6 +83,8 @@ html {
 #navMobile {
   display: none;
 }
+
+
 
 /****MOBILE NAVIGATION****/
 @media only screen and (max-width: 480px) {
@@ -113,7 +120,7 @@ html {
 /* BANNER SECTION */
 /*=====================*/
 #banner { /* parent of .banner-image + banner-content */
-  background-color: lightGray;
+  background-color: rgba(159, 157, 157, 0.3); /*light gray*/
   height: auto;
   display: flex;
 }
@@ -157,12 +164,16 @@ html {
 
 
 .banner-button a {
-  background-color: gray;
+  background-color: #000000;
   color: white;
   padding: 20px 150px; /* made slightly larger than spec */
   text-align: center;
   text-decoration: none;
 
+}
+
+.banner-button a:hover {
+  background-color: rgba(159, 157, 157, 1.0); /*Gray*/
 }
 
 
@@ -250,6 +261,7 @@ html {
 
 #practice span {
   font-size: 14px;
+  font-style: italic;
 }
 
 
@@ -260,7 +272,7 @@ html {
   display: flex;
   flex-direction: column;
   margin-top: 34px;
-  border-left: 2px solid lightGray;
+  border-left: 2px solid rgba(159, 157, 157, 0.3); /* light gray */
   padding-left: 24px;
 }
 
@@ -272,7 +284,7 @@ html {
 }
 
 #schoolInfoWrapper:hover {
-  background-color: lightGray;
+  background-color: rgba(159, 157, 157, 0.3); /*light gray*/
 
 }
 
@@ -304,8 +316,8 @@ html {
   margin-bottom: 8px;
 }
 
-a.link {
-  color: lightBlue;
+a.readMore {
+  color: rgba(32, 113, 227, 1.0); /*blue*/
   text-decoration: none;
 }
 
@@ -321,6 +333,7 @@ a.link {
 
   #bannerTwoWrapper {
     flex-direction: column;
+    width: 100%;
   }
 
   #schoolProducts {
@@ -343,7 +356,7 @@ a.link {
   }
 
   .school-image img {
-    width: 100%;
+
     height: 220px;
   }
 
@@ -362,7 +375,7 @@ a.link {
 /*=============================*/
 #bannerThreeWrapper {
   margin-top: 32px;
-  background-color: lightGray;
+  background-color: rgba(159, 157, 157, 0.3); /* lightGray */
   height: auto;
   display: flex;
   justify-content: center;
@@ -375,8 +388,9 @@ a.link {
   font-size: 32px;
   font-weight: bold;
   position: absolute;
-  top: 40px; /* slightly different than spec */
+  top: 40px;
   left: 520px;
+
 }
 
 #learning {
@@ -388,7 +402,7 @@ a.link {
 }
 
 .course {
-  background-color: white;
+  background-color: #ffffff;
   display: inline-block;
   width: 260px;
   margin-left: 32px;
@@ -443,7 +457,7 @@ a.link {
     justify-content: center;
     align-items: center;
     padding-left: 16px;
-    background-color: white;
+    background-color: #ffffff;
 
   }
 
@@ -463,11 +477,18 @@ a.link {
   #mobile-learning div {
     font-size: 20px;
     font-weight: bold;
-    background-color: lightGray;
+    background-color: #000000; /*light gray*/
+    color: #ffffff;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 16px;
     margin-bottom: 10px;
+
+  }
+
+  #mobile-learning div:hover {
+    background-color: rgba(159, 157, 157, 0.8); /*light gray*/
+
 
   }
 
@@ -543,7 +564,7 @@ a.link {
 }
 
 .designTypes:hover {
-  background-color: lightGray;
+  background-color: rgba(159, 157, 157, 0.3); /* light gray */
 }
 
 .designTypes img {
@@ -613,7 +634,7 @@ a.link {
 /*=============================*/
 
 #footer {
-  border-top: 2px solid lightGray;
+  border-top: 2px solid rgba(159, 157, 157, 0.3); /* light gray */
   padding-top: 16px;
   padding-left: 24px;
   padding-right: 24px;
@@ -624,6 +645,7 @@ a.link {
 
 #footer span {
   font-size: 14px;
+
 }
 
 #footer div span {
