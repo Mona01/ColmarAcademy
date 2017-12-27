@@ -288,12 +288,12 @@ html {
 
 }
 
-.school-image {
+#schoolImage {
   width: 45%; /* made slightly larger than spec */
   margin: 16px;
 }
 
-.school-image img {
+#schoolImage img {
   width: 100%;
 }
 
@@ -321,49 +321,87 @@ a.readMore {
   text-decoration: none;
 }
 
-
+.school-image-mobile {
+  display: none;
+}
 
 /****MOBILE BANNER TWO SECTION****/
-
 @media only screen and (max-width: 480px) {
 
   #practice {
     display: none;
   }
 
+  #schoolImage {
+    display: none;
+  }
+
   #bannerTwoWrapper {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    margin: 0px;
+    padding-top: 0px;
   }
 
   #schoolProducts {
     border: none;
-    width: 100%;
+    width: 90%;
     padding-left: 0px;
 
   }
 
   #schoolInfoWrapper {
     flex-direction: column;
-    margin: 20px;
-    margin-left: 0px;
-  }
-
-  .school-image {
-    width: 100%;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-left: 0px;
+
   }
 
-  .school-image img {
+  .school-image-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
 
-    height: 220px;
   }
 
-  .school-description {
+  .school-image-mobile {
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 0px;
+
+  }
+
+  .school-image-mobile img {
     width: 100%;
 
   }
+
+  .school-description.mobile {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-left: 0px;
+
+  }
+
+  .school-description.mobile h3 {
+    font-size: 22px;
+    margin-top: 16px;
+
+  }
+
+  .school-description.mobile p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 22px;
+
+
+  }
+
 
 
 }
@@ -449,6 +487,11 @@ a.readMore {
     display: none;
   }
 
+  #bannerThreeWrapper .learningTitle {
+    display: none;
+
+  }
+
   #bannerThreeWrapper {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -469,9 +512,14 @@ a.readMore {
     width: 100%;
   }
 
-  #bannerThreeWrapper .learningTitle {
-    display: none;
-
+  #mobile-learning h2 {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   #mobile-learning div {
@@ -481,8 +529,9 @@ a.readMore {
     color: #ffffff;
     padding-left: 30px;
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
     margin-bottom: 10px;
+    text-align: left;
 
   }
 
@@ -610,12 +659,14 @@ a.readMore {
     flex-direction: column;
     margin: 0px;
     width: 100%;
+    padding-top: 0px;
   }
 
   #bannerFourWrapper h2 {
-    position: absolute;
-    left: 50px;
+    position: relative;
+    left: 80px;
     margin-top: 32px;
+    margin-bottom: 16px;
 
   }
 
@@ -652,6 +703,15 @@ a.readMore {
   padding-left: 24px;
 }
 
+#footer div a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#footer div a:hover {
+  color: rgba(159, 157, 157, 1.0); /*Gray*/
+}
+
 /****MOBILE FOOTER****/
 
 @media only screen and (max-width: 480px) {
@@ -663,7 +723,14 @@ a.readMore {
   #footer {
     border: none;
     margin-top: 24px;
+    font-weight: lighter;
+    justify-content: center;
+
+
   }
 
+  #footer span {
+    font-size: 14px;
+  }
 
 }
